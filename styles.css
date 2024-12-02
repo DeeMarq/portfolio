@@ -57,6 +57,7 @@ p {
   width: 150px; /* Original size */
   border-radius: 50%;
   border: 4px solid #596235; /* Olive Green */
+
 }
 
 /* Home Section */
@@ -238,6 +239,10 @@ form button:hover {
   background-color: #596235; /* Olive Green */
   transform: scale(1.1); /* Slight zoom on hover */
 }
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+}
 
 /* About Section */
 .about-section {
@@ -260,4 +265,14 @@ form button:hover {
   background-attachment: fixed; /* Keeps the background fixed while scrolling */
   color: #2F3020; /* Dark Greenish Brown for text */
   height: 100vh;
+}
+.about-text{
+  padding: 8px 18px;
+  background: white;
+  border: 4px pink solid;
+  border-radius: 8px;
+}
+.about-text p{
+  
+  line-height: 1.3;
 }
