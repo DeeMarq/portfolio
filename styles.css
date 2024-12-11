@@ -74,6 +74,12 @@ p {
   color: #2F3020; /* Dark Greenish Brown */
   height: 100vh;
 }
+.bold-text {
+  color: black;
+  font-weight: bold;
+  margin-top: -15px;
+}  
+
 
 .cv-button {
   display: inline-block;
@@ -133,7 +139,7 @@ p {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .project-card a {
-  color: #FFDAB9; /* Peach color */
+  color: #D9846A; /* Peach color */
   text-decoration: none; /* Removes underline */
   font-weight: bold; /* Makes the text bold */
   transition: color 0.3s ease; /* Smooth hover effect */
@@ -170,24 +176,21 @@ p {
   
 }
 
-.contact-section h2 {
-  font-size: 2rem; /* Moderate size for heading */
-  margin-bottom: 10px;
-  font-style: italic;
-  align-items: left;
-  
-
-}
-
 .contact-section p {
   font-size: 1rem; /* Slightly smaller text */
   margin-bottom: 20px;
   align-items: left;
+  
 }
-
+.contact-section h2 {
+  max-width: 400px; /* Adjust to your preferred width */
+  margin: 0 auto; /* Center the text */
+  line-height: 1.5; /* Optional: Improve readability */
+}
 form {
   width: 100%;
   max-width: 500px; /* Moderate width for form */
+  font-family: #D9846A
 }
 
 form input, form textarea {
